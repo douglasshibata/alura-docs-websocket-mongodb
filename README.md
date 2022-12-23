@@ -31,3 +31,14 @@ npm start
 ### 
 Após rodar o projeto 
 abrir o navegador em http://localhost:3000
+
+
+### Instalar mongodb com docker
+execute o comando
+```bash
+docker run --name mongo -d -p 27017:27017  mongo:latest
+```
+criar usuário no mongo db
+```bash
+db.createUser({ user:"alura",pwd:passwordPrompt(),roles:[{role:"readWrite", db:"alura-websockets"}]})   
+```
