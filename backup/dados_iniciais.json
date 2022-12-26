@@ -1,0 +1,23 @@
+[
+  {
+    "_id": {
+      "$oid": "63a60dd1383e5905296d317f"
+    },
+    "nome": "Node",
+    "texto": "texto de node do mongoDB"
+  },
+  {
+    "_id": {
+      "$oid": "63a60de9383e5905296d3180"
+    },
+    "nome": "Socket.io",
+    "texto": "texto de socket.io do mongoDB"
+  },
+  {
+    "_id": {
+      "$oid": "63a60e08383e5905296d3181"
+    },
+    "nome": "JavaScript",
+    "texto": "texto de javascript do mongoDB"
+  }
+]

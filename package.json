@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server-socket.js",
-    "start": "node src/server-socket.js"
+    "dev": "nodemon src/socket-back.js",
+    "start": "node src/socket-back.js"
   },
   "repository": {
     "type": "git",
